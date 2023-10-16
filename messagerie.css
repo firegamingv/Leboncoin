@@ -1,0 +1,95 @@
+/* Style pour le lien de logo */
+a.logo {
+  display: inline-block;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+a.logo:hover {
+  background-color: #005082;
+}
+
+/* Style pour le reste de la page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.conversations {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.conversation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.conversation:hover {
+  background-color: #ebebeb;
+}
+
+.conversation-info {
+  flex: 1;
+}
+
+.conversation-info h2 {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.last-message {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.last-message-date {
+  font-size: 0.8em;
+  color: #888;
+}

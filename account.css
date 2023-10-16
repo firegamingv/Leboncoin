@@ -1,0 +1,170 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Main styles */
+  main {
+    padding: 20px;
+  }
+  
+  .account-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 40px;
+  }
+  
+  .account-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .account-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    margin-top: 10px;
+    color: #333;
+    background-color: #e2f0ff;
+    padding: 10px;
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 10px;
+    max-width: 300px;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form button[type="submit"] {
+    padding: 8px 12px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .annonces-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .annonces-list {
+    list-style: none;
+  }
+  
+  .annonce-item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-items: center;
+  }
+  
+  .annonce-item:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .annonce-details {
+    display: grid;
+    grid-gap: 5px;
+  }
+  
+  .annonce-title {
+    font-weight: bold;
+  }
+  
+  .annonce-description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .annonce-price {
+    font-weight: bold;
+  }
+  
+  .annonce-actions {
+    display: grid;
+    grid-gap: 5px;
+    align-items: center;
+  }
+  
+  .annonce-image {
+    max-width: 100px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .account-section {
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+    /* CSS pour le bouton de déconnexion */
+    a.deconnexion {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #f00;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.2s ease-in-out;
+      }
+      
+      a.deconnexion:hover {
+        background-color: #c00;
+      }
+      
